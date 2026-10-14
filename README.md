@@ -28,3 +28,11 @@ ChatGPT Codex를 기반으로 ChatGPT 6.1 Luna 서브에이전트를 통해 번�
 조직 주인장이 하고 싶은 게임을 번역합니다.
 
 큰 기준은 없으며, 하고 싶은것 위주로 진행되고 있습니다.
+
+## 설치 방법
+
+1. [Releases](https://github.com/project-parr0t/BarralRoll-Korean/releases)에서 게임 버전에 맞는 한국어 패치 ZIP을 받습니다.
+2. ZIP을 **게임 폴더 밖**의 원하는 위치에 모두 압축 해제합니다.
+3. `Install-Translation-Patch.bat`을 더블클릭한 뒤 화면에서 설치, 복원 또는 설치 상태 확인을 선택합니다.
+
+설치기가 Steam 게임 위치를 자동으로 찾지 못하면 `Barrel Roll`의 게임 폴더를 직접 지정해 주세요. 설치기는 지원하는 게임 빌드인지 확인하고, 패치가 관리하는 파일만 설치·복원합니다. Steam 무결성 검사가 패치 파일을 제거한 경우 설치기를 다시 실행하면 됩니다.

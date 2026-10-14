@@ -1,0 +1,128 @@
+{
+  "schema": "parr0t.instance-build/v1",
+  "patch_id": "barrel-roll-ko",
+  "release_id": "1.1.0-r5",
+  "display_name": "Barrel Roll 한국어 패치",
+  "game": {
+    "version": "1.1.0",
+    "build_id": "steam-22285301",
+    "steam_app_id": "3860590",
+    "steam_install_dir": "Barrel Roll",
+    "source_bindings": [
+      {
+        "path": "Barrel Roll.exe",
+        "bytes": 182272,
+        "sha256": "253855b26cea7f43037ffa9882b6005276d9b87c8d4793cde46be98539d6cfc3"
+      },
+      {
+        "path": "BarrelRollProd/Content/Paks/BarrelRollProd-Windows.pak",
+        "bytes": 21088873,
+        "sha256": "d347b81b1f409a590c316d649d1444e97d0c43189c2a6b12fbd89f3f73d26062"
+      },
+      {
+        "path": "BarrelRollProd/Content/Paks/BarrelRollProd-Windows.utoc",
+        "bytes": 2322419,
+        "sha256": "33b2d870aabb1640fab1e1a7ae596b9952433de876f91afae23fbf67d3d2fa53"
+      }
+    ]
+  },
+  "sdk": {
+    "repository": "https://github.com/milkyway0308/parr0t.git",
+    "branch": "sdk-unreal-5.4",
+    "commit": "e6a614b08e8c234be1ce7ff938f32391c16748b6",
+    "adapter_fingerprint": "b140b4bb22f9b2d0a0689c4f2bf2c72b59529cef31c0988345df6da916e2ecc4"
+  },
+  "checkpoint": {
+    "path": "parr0t-release-checkpoint.json",
+    "bytes": 1407463,
+    "sha256": "78c8048b2adc9540689e205fe84935a75e47ec56f25766462726c873ce01eebd"
+  },
+  "tools": {
+    "fonttools": "4.64.0",
+    "repak": {
+      "version": "0.2.3",
+      "bytes": 4541952,
+      "sha256": "fcd538e5994b9bb833622d425ae346f4e0692f02d4b0025114a559f9b6286022"
+    },
+    "retoc": {
+      "version": "0.1.5",
+      "bytes": 7097344,
+      "sha256": "a145f3557ec60b163ed1b78b2f380232d2753fa30350c8013c98e171db3ae7e7"
+    }
+  },
+  "font_source": {
+    "release_asset": "NotoSansKR-VF-2.04-build-input.ttf",
+    "family": "Noto Sans KR",
+    "version": "Version 2.04;241114210130;non-release",
+    "license": "SIL Open Font License 1.1",
+    "bytes": 10415532,
+    "sha256": "018174e8cdd366aff67c8d366c7dc806a7babbe7f2819fc23b00d59f7b8353d0"
+  },
+  "font_outputs": [
+    {
+      "base": "Barbaro/Barbaro.ufont",
+      "output": "Barbaro.ufont",
+      "weight": 900,
+      "base_bytes": 38092,
+      "base_sha256": "cb4eee30742b45f68317c0a0bb7bf9bb2dea5b9ad1f647cd597915eca1399075",
+      "output_bytes": 147560,
+      "output_sha256": "24f3e316705e659f52a55ee05f20ec44d2efc0b1ca4e2c75a0097c91c415d4f8"
+    },
+    {
+      "base": "Barbaro/Barbaro_Punta.ufont",
+      "output": "Barbaro_Punta.ufont",
+      "weight": 900,
+      "base_bytes": 41508,
+      "base_sha256": "6e63590e7301a450488b95c084f6a68592dfbdb9c15b6935aff643f3f7e7b1e6",
+      "output_bytes": 150996,
+      "output_sha256": "d35642dabae26eead8e84751a4455ed952a9cda0249e83a1eba4ad3e34fd2eda"
+    },
+    {
+      "base": "DIN/D-DIN.ufont",
+      "output": "D-DIN.ufont",
+      "weight": 400,
+      "base_bytes": 59860,
+      "base_sha256": "6d67834e2a76646c456c087ce42a6bd6b6b0c85c88dd9918618a8b4c563c2bdf",
+      "output_bytes": 138172,
+      "output_sha256": "73c5f8469728063127aaf1ca54c80294ac3558d22d48968c590c91b243c17591"
+    },
+    {
+      "base": "DIN/D-DIN-Bold.ufont",
+      "output": "D-DIN-Bold.ufont",
+      "weight": 700,
+      "base_bytes": 60188,
+      "base_sha256": "b0f96a3730041605b139ca2d15e29a36c55e49058ba2b72ee4d09b5e4ca210c1",
+      "output_bytes": 137768,
+      "output_sha256": "f3ba41e15d59c1d9b04e3eb24b37d6b6c2270eb49016b858e08700bd6a5f1263"
+    }
+  ],
+  "configuration": {
+    "source_path": "BarrelRollProd/Config/DefaultGame.ini",
+    "source_bytes": 19371,
+    "source_sha256": "ed79ea8506175c7d74395344c57756f5836dc9c4858fb692f30796735303a2b6",
+    "append_utf8": "[Internationalization]\r\nCulture=ko\r\n\r\n",
+    "output_bytes": 19409,
+    "output_sha256": "5888097b9d58d7c6e9a12a976c3bce037740cf5f5d89f647444d0def416d7a90"
+  },
+  "pack": {
+    "project_name": "BarrelRollProd",
+    "localization_target": "Game",
+    "target_locale": "ko",
+    "pak_name": "BarrelRollProd-Korean_P.pak",
+    "path_hash_seed": "1913709885",
+    "compression": "Zlib",
+    "expected_bytes": 431444,
+    "expected_sha256": "05fa0826c16e910928feeff5ce065ecee27e449a0ba9d6bdb6e3865a5660b377"
+  },
+  "package": {
+    "filename": "Barrel-Roll-Korean-Patch-v1.1.0-R5.zip",
+    "checksum_filename": "Barrel-Roll-Korean-Patch-v1.1.0-R5.zip.sha256",
+    "checksum_bytes": 105,
+    "checksum_sha256": "8abd0897e1d5987dca7aff42894f14390172c9b0d91a83cabb9263d14490f869",
+    "expected_bytes": 792005,
+    "expected_sha256": "e13484f614962b917f9b116a23d6341f4e2806ef43ac7d5ebf2759acbbbb2e53",
+    "manifest_bytes": 2812,
+    "manifest_sha256": "e69865201bf79b256436eaec866c163ca4384cd2a190147b81c9ed8d483ec797",
+    "artifact_fingerprint": "9d5cb54f530c7910cc3c46d2be2f9112165e3fb7427e9191fade9f1ff1c3ce1a"
+  }
+}
