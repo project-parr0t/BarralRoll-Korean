@@ -1,0 +1,63 @@
+{
+  "schema": "parr0t.instance-release/v1",
+  "repository": "project-parr0t/BarralRoll-Korean",
+  "instance_source_commit": "721394a2b2738a85e2fbd0d1eaf2396201320970",
+  "tag": "v1.1.0-r5",
+  "release": {
+    "github_id": 413232311,
+    "name": "Barrel Roll Patch 1.1.0-r5 (Game Version 1.1.0)",
+    "state": "draft"
+  },
+  "game": {
+    "version": "1.1.0",
+    "build_id": "steam-22285301",
+    "binding_fingerprint": "781d67eeaa118706e3431d9324ac9123678c31722642f26d81fcb80cb125b633"
+  },
+  "sdk": {
+    "repository": "https://github.com/milkyway0308/parr0t.git",
+    "branch": "sdk-unreal-5.4",
+    "commit": "e6a614b08e8c234be1ce7ff938f32391c16748b6",
+    "adapter_fingerprint": "b140b4bb22f9b2d0a0689c4f2bf2c72b59529cef31c0988345df6da916e2ecc4"
+  },
+  "checkpoint": {
+    "path": "parr0t-release-checkpoint.json",
+    "bytes": 1407463,
+    "sha256": "78c8048b2adc9540689e205fe84935a75e47ec56f25766462726c873ce01eebd"
+  },
+  "package": {
+    "manifest_bytes": 2812,
+    "manifest_sha256": "e69865201bf79b256436eaec866c163ca4384cd2a190147b81c9ed8d483ec797",
+    "artifact_fingerprint": "9d5cb54f530c7910cc3c46d2be2f9112165e3fb7427e9191fade9f1ff1c3ce1a",
+    "pak_bytes": 431444,
+    "pak_sha256": "05fa0826c16e910928feeff5ce065ecee27e449a0ba9d6bdb6e3865a5660b377",
+    "deterministic_pack_environment": {
+      "RAYON_NUM_THREADS": "1"
+    }
+  },
+  "assets": [
+    {
+      "name": "Barrel-Roll-Korean-Patch-v1.1.0-R5.zip",
+      "role": "installer",
+      "bytes": 792005,
+      "sha256": "e13484f614962b917f9b116a23d6341f4e2806ef43ac7d5ebf2759acbbbb2e53"
+    },
+    {
+      "name": "Barrel-Roll-Korean-Patch-v1.1.0-R5.zip.sha256",
+      "role": "installer-checksum",
+      "bytes": 105,
+      "sha256": "8abd0897e1d5987dca7aff42894f14390172c9b0d91a83cabb9263d14490f869"
+    },
+    {
+      "name": "NotoSansKR-VF-2.04-build-input.ttf",
+      "role": "reproducible-build-input",
+      "bytes": 10415532,
+      "sha256": "018174e8cdd366aff67c8d366c7dc806a7babbe7f2819fc23b00d59f7b8353d0"
+    },
+    {
+      "name": "NotoSansKR-VF-2.04-OFL-1.1.txt",
+      "role": "build-input-license",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    }
+  ]
+}
